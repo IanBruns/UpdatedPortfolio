@@ -72,7 +72,6 @@ footer {
 }
 
 a {
-    font-weight: bold;
     text-decoration: none;
   }
   a:link    { color: #0C0910;  }
@@ -82,6 +81,7 @@ a {
 
 .button {
     /* Button appearances used for links */
+    font-weight: bold;
     background-color: #73648A;
     border: none;
     padding: 15px 32px;
@@ -97,7 +97,7 @@ a {
   }
 
 /*
-Contact form stuff
+Contact form
 */
 
 form {
@@ -115,6 +115,10 @@ form textarea {
 
 form textarea {
     height: 160px;
+}
+
+button:hover {
+    color: #9882AC;
 }
 
 /* flex boxes */
