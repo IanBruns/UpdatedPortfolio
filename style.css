@@ -106,7 +106,7 @@ Contact form
 */
 
 form {
-    padding-right: 6px;
+    padding: 20px;
     text-align: left;
 }
 
@@ -146,6 +146,7 @@ button:hover {
 
 .item-double {
     flex: 2;
+    margin: 10px;
 }
 
 @media all and (min-width: 800px) {
