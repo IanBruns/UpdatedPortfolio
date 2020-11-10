@@ -6,10 +6,25 @@ body {
 }
 
 header {
-
     background-color: #73648A;
     text-align: center;
     border-radius: 75px;
+    margin-top: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 0;
+}
+
+header nav ul li:last-child a{
+    margin-right: 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -49,6 +64,12 @@ li{
     margin: 10px;
 }
 
+footer {
+    padding: 10px;
+    background-color: #9882AC;
+    border-radius: 75px;
+}
+
 a {
     font-weight: bold;
     text-decoration: none;
@@ -70,7 +91,7 @@ a {
   }
 
   .underline {
-      margin-top: 5px;
+    margin-top: 5px;
     border-bottom: 1px solid #0C0910;
   }
 
@@ -98,8 +119,20 @@ a {
 
 @media all and (min-width: 800px) {
     /*
-    Desktop defaults
+    Desktop defaults in more rows, where mobile is all columns
     */
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    header nav {
+        margin: 10px;
+        justify-content: center;
+    }
+
     .group {
         flex-direction: row;
     }
