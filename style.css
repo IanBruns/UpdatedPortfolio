@@ -97,6 +97,10 @@ a {
     border-bottom: 1px solid #0C0910;
   }
 
+  .header-navigation {
+    margin: 10px;
+  }
+
 /*
 Contact form
 */
