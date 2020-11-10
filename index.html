@@ -26,8 +26,8 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#why-me">Why Me</a></li>
-                <li><a href="#contact">Contact</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -102,30 +102,6 @@
         </div>
     </article>
 
-    <h2>Where to Find Me!</h2>
-    <!--
-        2 boxes, one with text over a few papragraps to pad the length to match the
-        second bex which is buttons for contacting me
-    -->
-    <article id="contact" class="group">
-        <div class="item">
-            <p>
-                I hope you like what you have read so far!
-            </p>
-            <p>
-                If you have and want to get to know me, there are a few ways
-                to reach out!
-            </p>
-        </div>
-        <div class="item">
-            <ul>
-                <li><a class="button" href="mailto:ian@rbruns.com" target="_blank">Email</a></li>
-                <li><a class="button" href="https://www.linkedin.com/in/ianabruns/" target="_blank">LinkedIn</a></li>
-                <li><a class="button" href="https://github.com/IanBruns" target="_blank">GitHub</a></li>
-            </ul>
-        </div>
-    </article>
-
     <h2>Projects</h2>
     <article id="projects" class="group-2-spread">
         <!--
@@ -151,6 +127,49 @@
                 This was my first work in python with no other guides to help, I leaned if/then statements, and how to
                 use the random library
             </p>
+        </div>
+    </article>
+
+    <h2>Where to Find Me!</h2>
+    <!--
+        3 boxes in a 1/4, 1/2, 1/4 ration, one with text over a quick thank you, the largest in the middle for a contact form, 
+        and a last box to match the first box which is buttons for contacting me through button links
+    -->
+    <article id="contact" class="group">
+        <div class="item">
+            <p>
+                I hope you like what you have read so far!
+            </p>
+            <hr>
+            <p>
+                If you have and want to get to know me, there are a few ways
+                to reach out!
+            </p>
+            <hr>
+            <p>
+                Of course, you can just use the contact for in the middle if you want to reach out to me direct
+            </p>
+        </div>
+        <div class="item-double">
+            <h5>Contact Form</h5>
+            <form action="https://formspree.io/ian@rbruns.com" method="POST">
+                <label for="user-name">Your Name:</label>
+                <input id="user-name" type="text" name="name">
+
+                <label for="user-email">Your Email</label>
+                <input id="user-email" type="text" name="email">
+
+                <label for="user-message">Message:</label>
+                <textarea id="user-message" name="message"></textarea>
+                <button class="button" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="item">
+            <ul>
+                <li><a class="button" href="mailto:ian@rbruns.com" target="_blank">Email</a></li>
+                <li><a class="button" href="https://www.linkedin.com/in/ianabruns/" target="_blank">LinkedIn</a></li>
+                <li><a class="button" href="https://github.com/IanBruns" target="_blank">GitHub</a></li>
+            </ul>
         </div>
     </article>
 
