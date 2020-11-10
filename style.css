@@ -1,0 +1,110 @@
+body {
+    background-color: #E0E2DB;
+    color: #0C0910;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header {
+
+    background-color: #73648A;
+    text-align: center;
+    border-radius: 75px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Tangerine;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h5{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #0C0910;
+}
+
+img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+a {
+    font-weight: bold;
+  }
+  a:link    { color: #0C0910;  }
+  a:visited { color: #0C0910;   }
+  a:hover   { color: #9882AC; }
+  a:active  { color: #0C0910;  }
+
+.button {
+    /* Button appearances used for links */
+    background-color: #73648A;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 100px;
+  }
+
+  .underline {
+      margin-top: 5px;
+    border-bottom: 1px solid #0C0910;
+  }
+
+/* flex boxes */
+/* Mobile Default */
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-2-spread{
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
+.item-double {
+    flex: 2;
+}
+
+@media all and (min-width: 800px) {
+    /*
+    Desktop defaults
+    */
+    .group {
+        flex-direction: row;
+    }
+
+    .group-2-spread{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+  }
