@@ -51,6 +51,7 @@ li{
 
 a {
     font-weight: bold;
+    text-decoration: none;
   }
   a:link    { color: #0C0910;  }
   a:visited { color: #0C0910;   }
