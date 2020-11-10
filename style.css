@@ -65,6 +65,7 @@ li{
 }
 
 footer {
+    margin-top: 10px;
     padding: 10px;
     background-color: #9882AC;
     border-radius: 75px;
@@ -94,6 +95,27 @@ a {
     margin-top: 5px;
     border-bottom: 1px solid #0C0910;
   }
+
+/*
+Contact form stuff
+*/
+
+form {
+    padding-right: 6px;
+    text-align: left;
+}
+
+form input, 
+form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #E0E2DB;
+    color: #0C0910;
+}
+
+form textarea {
+    height: 160px;
+}
 
 /* flex boxes */
 /* Mobile Default */
@@ -129,7 +151,7 @@ a {
     }
 
     header nav {
-        margin: 10px;
+        margin: 75px;
         justify-content: center;
     }
 
